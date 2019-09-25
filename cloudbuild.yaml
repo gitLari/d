@@ -17,4 +17,4 @@ steps:
   args: ['beta', 'run', 'deploy', 'tballs', '--image', 'gcr.io/lariballs/image1', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']
 images:
        - gcr.io/lariballs/image1
-       - gcr.io(lariballs/image2
+       - gcr.io/lariballs/image2
