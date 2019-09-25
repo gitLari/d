@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/go'
+  args: ['install', '.']
+  env: ['PROJECT_ROOT=lariballs']
+  dir: 'examples/webbi'
+
+steps:
+- name: 'gcr.io/cloud-builders/go'
+  args: ['install', '.']
+  env: ['PROJECT_ROOT=lariballs']
+  dir: 'examples/db'
