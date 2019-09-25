@@ -8,3 +8,5 @@ RUN apt-get update && apt-get install -y \
     #pip install mysql-connector
 
 RUN pip install mysql-connector
+
+EXPOSE 80
