@@ -16,5 +16,12 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['beta', 'run', 'deploy', 'tballs', '--image', 'gcr.io/lariballs/image1', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']
 images:
-       - gcr.io/lariballs/image1
-       - gcr.io/lariballs/image2
+       - gcr.io/lariballs/tballs
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['beta', 'run', 'deploy', 'tballs', '--image', 'gcr.io/lariballs/image2', '--region', 'us-central1', '--pl$
+images:
+       - gcr.io/lariballs/tballs
+
+
+
+
