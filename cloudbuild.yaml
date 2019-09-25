@@ -1,11 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build','-t', 'gcr.io/lariballs/image1', '.']
+  args: ['build', '-t', 'gcr.io/lariballs/image1', '.']
   dir: 'webbi'
-
-steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/lariballs/image2''.']
+  args: ['build', '-t', 'gcr.io/lariballs/image2', '.']
   env: ['PROJECT_ROOT=lariballs']
   dir: 'db'
 images: ['gcr.io/lariballs/image1', 'gcr.io/lariballs/image2']
