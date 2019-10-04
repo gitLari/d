@@ -15,7 +15,8 @@ def hello():
 #        rivi = ("Ryhmä: {}, Ryhmän nimi: {}").format(str(O_ryhmaID),nimi)
 #    mariadb_connection.close()
 #    return (rivi) #pois alta
-return "rock"
+rock = "huisaa"
+return (rock)
 
 if __name__ == "__main__":
     # Only for debugging while developing
