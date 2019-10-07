@@ -12,7 +12,7 @@ def hello():
     except mariadb.Error as error:
         return("Virhe {}".format(error))
     for O_ryhmaID, nimi in cursor:
-        rivi = ("Ryhmä xx : {}, Ryhmän nimi: {}").format(str(O_ryhmaID),nimi)
+        rivi = ("Ryhmä xxx : {}, Ryhmän nimi: {}").format(str(O_ryhmaID),nimi)
     mariadb_connection.close()
     return (rivi) #pois alta
 
